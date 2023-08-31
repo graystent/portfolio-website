@@ -54,7 +54,7 @@ export const projectsData = [
   {
     title: "NHS",
     description:
-      "I worked as a full-stack developer on a transformation from legacy system to cloud. Used by Doctors to pull previous patient visit info and automate letter generation.",
+      "I worked as a full-stack developer on a transformation from legacy system to cloud. Used by doctors to pull previous patient visit info and automate letter generation.",
     tags: ["React", "Typescript", "AWS", "Terraform", "GitLab"],
     imageUrl: nhsImg,
   },
@@ -62,7 +62,7 @@ export const projectsData = [
     title: "EDF",
     description:
       "I was a front-end developer for a new mobile and desktop applications following Figma designs. User data was retrieved using GraphQL.",
-    tags: ["React", "React Native", "TypeScript", "Figma"],
+    tags: ["React", "React Native", "TypeScript", "Figma", "GraphQL"],
     imageUrl: edfImg,
   },
 ] as const;
@@ -78,10 +78,19 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "DynamoDB",
+  "EC2",
+  "Lambda",
+  "CloudWatch",
+  "S3",
+  "API Gateway",
+  "VPC",
+  "CodeBuild",
   "GraphQL",
   "SQL",
   "Python",
   "Terraform",
+  "GitHub Actions",
+  "GitLab",
   "AWS Solutions Architect - Associate",
   "PSM1 Scrum Master",
 ] as const;
